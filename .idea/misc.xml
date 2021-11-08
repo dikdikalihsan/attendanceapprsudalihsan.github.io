@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AttendanceApplicationRsudAlihsan/app/src/main/res/drawable-v24/bg_btn_facebook.xml" value="0.378125" />
+        <entry key="..\:/AttendanceApplicationRsudAlihsan/app/src/main/res/drawable-v24/bg_forgot_password.xml" value="0.21822916666666667" />
         <entry key="..\:/AttendanceApplicationRsudAlihsan/app/src/main/res/layout/activity_auth.xml" value="0.20208333333333334" />
         <entry key="..\:/AttendanceApplicationRsudAlihsan/app/src/main/res/layout/activity_forgot_password.xml" value="0.20208333333333334" />
         <entry key="..\:/AttendanceApplicationRsudAlihsan/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
