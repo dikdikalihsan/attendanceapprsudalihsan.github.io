@@ -9,19 +9,6 @@ class ForgotPasswordActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot_password)
 
-        initActionBar()
 
-        btnSendEmail.setOnClickListener {
-            Toast.makeText(this, "Send Email", Toast.LENGTH_SHORT).show()
-        }
-        tbForgotPassword.setNavigationOnClickListener {
-            finish()
-        }
-    }
-
-    private fun initActionBar() {
-        setSupportActionBar(tbForgotPassword)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title =""
     }
 }

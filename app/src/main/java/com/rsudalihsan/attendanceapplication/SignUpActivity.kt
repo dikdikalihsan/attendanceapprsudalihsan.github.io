@@ -9,15 +9,6 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        initActionBar()
-        btnSignUp.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
-        }
-    }
 
-    private fun initActionBar() {
-        setSupportActionBar(tbSignUp)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.title =""
     }
 }
