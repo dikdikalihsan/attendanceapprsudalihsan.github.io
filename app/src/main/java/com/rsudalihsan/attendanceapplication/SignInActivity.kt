@@ -16,6 +16,11 @@ class SignInActivity : AppCompatActivity() {
             startActivity(Intent(this, ForgotPasswordActivity::class.java))
         }
 
+        val btnSignIn : Button = findViewById(R.id.btnSignIn);
+        btnSignIn.setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java))
+        }
+
 
     }
 }
