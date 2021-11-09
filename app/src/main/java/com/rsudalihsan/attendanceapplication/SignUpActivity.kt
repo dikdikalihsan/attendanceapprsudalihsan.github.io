@@ -14,6 +14,5 @@ class SignUpActivity : AppCompatActivity() {
         btnSignUp.setOnClickListener {
             startActivity(Intent(this, SignInActivity::class.java))
         }
-
     }
 }
