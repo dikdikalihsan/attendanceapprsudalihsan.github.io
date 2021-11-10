@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnLogout : Button = findViewById(R.id.btnLogout);
-        btnLogout.setOnClickListener {
-            startActivity(Intent(this, AuthActivity::class.java))
+        val btnLetGetStarted : Button = findViewById(R.id.btnLetGetStarted);
+        btnLetGetStarted.setOnClickListener {
+            startActivity(Intent(this, DasboardActivity::class.java))
         }
     }
 }

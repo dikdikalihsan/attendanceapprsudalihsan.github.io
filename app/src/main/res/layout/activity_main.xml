@@ -42,11 +42,11 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnLogout"
+        android:id="@+id/btnLetGetStarted"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_btn_logout"
-        android:text="Logout"
+        android:text="Let Get Started"
         android:textColor="@android:color/white"
         android:layout_alignParentBottom="true"
         />
