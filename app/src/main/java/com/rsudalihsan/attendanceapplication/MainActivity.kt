@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnLetGetStarted : Button = findViewById(R.id.btnLetGetStarted);
         btnLetGetStarted.setOnClickListener {
-            startActivity(Intent(this, DasboardActivity::class.java))
+            startActivity(Intent(this, DashboardActivity::class.java))
         }
     }
 }

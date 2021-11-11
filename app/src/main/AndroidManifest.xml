@@ -16,7 +16,7 @@
             android:name=".PoliActivity"
             android:exported="false" />
         <activity
-            android:name=".DasboardActivity"
+            android:name=".DashboardActivity"
             android:exported="false" />
         <activity
             android:name=".ForgotPasswordActivity"
