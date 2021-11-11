@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AttendanceApplication">
         <activity
+            android:name=".PoliActivity"
+            android:exported="false" />
+        <activity
             android:name=".DasboardActivity"
             android:exported="false" />
         <activity
