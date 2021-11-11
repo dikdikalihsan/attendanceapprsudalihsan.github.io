@@ -14,5 +14,8 @@ class MainActivity : AppCompatActivity() {
         btnLetGetStarted.setOnClickListener {
             startActivity(Intent(this, DashboardActivity::class.java))
         }
+        fun onClick(v: DashboardActivity) {
+            startActivity(Intent(this, DashboardActivity::class.java))
+        }
     }
 }
