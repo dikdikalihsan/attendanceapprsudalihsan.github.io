@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AttendanceApplication">
         <activity
+            android:name=".ProfilDokterActivity"
+            android:exported="false" />
+        <activity
             android:name=".CodeVerifikasiActivity"
             android:exported="true" />
         <activity
