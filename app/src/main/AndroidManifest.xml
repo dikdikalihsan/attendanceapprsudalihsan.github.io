@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AttendanceApplication">
         <activity
             android:name=".ProfilDokterActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".CodeVerifikasiActivity"
             android:exported="true" />
