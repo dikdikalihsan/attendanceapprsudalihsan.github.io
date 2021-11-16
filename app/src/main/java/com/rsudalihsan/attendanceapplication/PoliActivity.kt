@@ -14,7 +14,7 @@ class PoliActivity : AppCompatActivity() {
         btnPoliDokterUmum.setOnClickListener {
             startActivity(Intent(
                 this,
-                MainActivity::class.java
+                ProfilDokterActivity::class.java
             ))
         }
     }
